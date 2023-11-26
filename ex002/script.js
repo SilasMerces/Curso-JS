@@ -1,3 +1,2 @@
-window.alert ('Minha primeira menssagem.')
-window.confirm ("Está gostando de JavaScript?")
-window.prompt ('Qual seu nome?')
+let nome = window.prompt ('Qual seu nome?')
+window.alert ('Prazer em te conhecer, ' + nome + '!')
